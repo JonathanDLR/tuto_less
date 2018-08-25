@@ -1,0 +1,17 @@
+.style-p {
+  margin-left: 20px;
+}
+@media screen and (max-width: 768px) {
+  .style-p {
+    color: purple;
+  }
+}
+div p {
+  color: blue;
+  margin-left: 20px;
+}
+@media screen and (max-width: 768px) {
+  div p {
+    color: purple;
+  }
+}
