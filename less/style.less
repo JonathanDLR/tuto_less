@@ -1,9 +1,15 @@
 @import 'variable.less';
 @import 'extend.less';
 
-div {
+#test1, #test2 {
   p {
     color: @color;
+    .style-p;
+  }
+}
+
+#test3 {
+  p {
     .style-p;
   }
 }

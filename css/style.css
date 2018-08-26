@@ -1,17 +1,19 @@
-.style-p {
-  margin-left: 20px;
-}
-@media screen and (max-width: 768px) {
-  .style-p {
-    color: purple;
-  }
-}
-div p {
+#test1 p,
+#test2 p {
   color: blue;
   margin-left: 20px;
 }
 @media screen and (max-width: 768px) {
-  div p {
-    color: purple;
+  #test1 p,
+  #test2 p {
+    color: green;
+  }
+}
+#test3 p {
+  margin-left: 20px;
+}
+@media screen and (max-width: 768px) {
+  #test3 p {
+    color: green;
   }
 }
